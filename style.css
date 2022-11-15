@@ -1,12 +1,62 @@
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
-  font-family: Roboto sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
+.header,
+.hero,
+.footer{
+  background-color: #1F2937;
+}
+
+.header-logo,
+.hero-header,
+button {
+  color: #F9FAF8;
+}
+
+.header-link-section,
+.hero-text,
+.footer {
+  color: #E5E7EB;
+}
+
+.header-logo{
+  font-size: 24px;
+}
+
+.hero-text,
+.header-link-section {
+  font-size: 18px;
+}
+
+.hero-header {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.information-header,
+.quote-text {
+  color: #1F2937;
+}
+
+.quote {
+  background-color: #E5E7EB;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.cta,
+button {
+  background-color: #3882F6;
+}
