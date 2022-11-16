@@ -21,6 +21,7 @@ a {
 .header-link-section,
 .hero-container,
 .hero,
+.information-container,
 .information-content-section,
 .cta {
   display: flex;
@@ -47,7 +48,8 @@ button {
 }
 
 .header,
-.hero {
+.hero,
+.information {
   flex: 1;
   max-width: 1080px;
   margin: auto;
@@ -106,7 +108,16 @@ button {
   padding-top: 0;
 }
 
+.information-container {
+  background-color: white;
+}
+
+.information {
+  padding: 20px;
+}
+
 .information-header {
+  text-align: center;
   font-size: 36px;
   font-weight: 900;
 }
@@ -117,11 +128,21 @@ button {
 }
 
 .information-content-section {
+  justify-content: center;
   gap: 4rem;
+  flex-wrap: wrap;
 }
 
 .information-item {
   text-align: center;
+  max-width: 150px;
+}
+
+.information-item img {
+  box-sizing: border-box;
+  max-width: 100%;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
 }
 
 .quote {
