@@ -23,6 +23,7 @@ a {
 .hero,
 .information-container,
 .information-content-section,
+.quote-container,
 .cta {
   display: flex;
 }
@@ -49,7 +50,8 @@ button {
 
 .header,
 .hero,
-.information {
+.information,
+.quote {
   flex: 1;
   max-width: 1080px;
   margin: auto;
@@ -145,14 +147,25 @@ button {
   border-radius: 10px;
 }
 
-.quote {
+.quote-container {
   background-color: #E5E7EB;
+  padding: 100px 20px;
+  justify-content: center;
+}
+
+.quote {
+  max-width: 800px;
 }
 
 .quote-text {
+  margin: 0;
   font-size: 36px;
   font-weight: 200;
   font-style: italic;
+}
+
+.quote-author {
+  text-align: right;
 }
 
 .cta,
