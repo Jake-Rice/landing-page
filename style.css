@@ -24,6 +24,7 @@ a {
 .information-container,
 .information-content-section,
 .quote-container,
+.cta-container,
 .cta {
   display: flex;
 }
@@ -51,7 +52,8 @@ button {
 .header,
 .hero,
 .information,
-.quote {
+.quote,
+.cta {
   flex: 1;
   max-width: 1080px;
   margin: auto;
@@ -168,7 +170,51 @@ button {
   text-align: right;
 }
 
+.cta-container {
+  background-color: white;
+  padding: 100px;
+}
+
+.cta {
+  color: white;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 50px;
+}
+
+.cta-header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cta-right {
+  margin: auto;
+}
+
+.cta-left {
+  flex: 1;
+  min-width: 150px;
+}
+
 .cta,
 button {
   background-color: #3882F6;
+}
+
+button {
+  min-width: 140px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.cta button {
+  border: 2px solid white;
+}
+
+.footer {
+  padding: 40px;
+  text-align: center;
 }
